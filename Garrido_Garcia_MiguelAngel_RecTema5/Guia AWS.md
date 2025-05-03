@@ -11,7 +11,7 @@ El primer paso es acceder a la consola de administración de AWS.
 3.  Escribe tu contraseña y haz clic en "Iniciar sesión".
 4.  Una vez autenticado, llegarás al panel de control de la consola de AWS.
 
- ![Página de inicio de sesión de AWS](/img/1.gij)
+ ![Página de inicio de sesión de AWS](/img/1.gif)
 
 ## 2. Navegación al Servicio EC2
 
