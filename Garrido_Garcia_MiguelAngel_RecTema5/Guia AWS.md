@@ -29,7 +29,7 @@ Para crear tu servidor Windows Server, necesitas lanzar una nueva instancia EC2.
 
 1.  En el panel de control de EC2, haz clic en el botón "Lanzar instancia".
 
-    ![Lanzar instancia!](/img/3.jpg)
+    ![Lanzar instancia!](/img/3.gif)
 
 ## 4. Selección de la Amazon Machine Image (AMI)
 
