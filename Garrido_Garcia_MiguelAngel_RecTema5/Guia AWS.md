@@ -21,7 +21,7 @@ Amazon Elastic Compute Cloud (EC2) es el servicio que te permite crear y adminis
 2.  Alternativamente, puedes encontrar "EC2" en la sección de "Servicios" bajo la categoría de "Computación".
 3.  Serás redirigido al panel de control de EC2.
 
-   ![EC2](/2.jpg)
+   ![EC2](img/2.jpg)
 
 ## 3. Lanzamiento de una Nueva Instancia
 
@@ -29,7 +29,7 @@ Para crear tu servidor Windows Server, necesitas lanzar una nueva instancia EC2.
 
 1.  En el panel de control de EC2, haz clic en el botón "Lanzar instancia".
 
-    ![Lanzar instancia!](/3.jpg)
+    ![Lanzar instancia!](img/3.jpg)
 
 ## 4. Selección de la Amazon Machine Image (AMI)
 
@@ -39,7 +39,7 @@ Una AMI es una imagen preconfigurada que proporciona la información necesaria p
 2.  Verás varias opciones. Elige la AMI que se ajuste a tus necesidades (por ejemplo, "Microsoft Windows Server 2022 Base"). Asegúrate de que sea elegible para la capa gratuita si estás dentro del periodo de prueba.
 3.  Haz clic en el botón "Seleccionar" junto a la AMI deseada.
 
-    ![AMI de Windows Server](/4.jpg)
+    ![AMI de Windows Server](img/4.jpg)
 
 ## 5. Selección del Tipo de Instancia
 
@@ -48,7 +48,7 @@ El tipo de instancia determina los recursos de hardware de tu servidor (CPU, mem
 1.  Se te presentará una lista de tipos de instancia. Elige un tipo que se ajuste a tus necesidades de rendimiento y presupuesto. Para pruebas, un tipo `t3.micro` (si está disponible en tu región y es elegible para la capa gratuita) es suficiente.
 2.  Haz clic en el botón "Siguiente: Configurar detalles de instancia".
 
-    ![tipo de instancia](/5.jpg)
+    ![tipo de instancia](img/5.jpg)
 
 ## 6. Configuración de los Detalles de la Instancia
 
@@ -60,7 +60,7 @@ En esta sección, configurarás varios aspectos de tu instancia, como la red, la
 4.  Revisa las demás opciones y configúralas según tus necesidades.
 5.  Haz clic en el botón "Siguiente: Añadir almacenamiento".
 
-    ![detalles de la instancia](/6.jpg)
+    ![detalles de la instancia](img/6.jpg)
 
 ## 7. Añadir Almacenamiento(Opcional)
 
@@ -93,7 +93,7 @@ Un grupo de seguridad actúa como un firewall virtual para tu instancia, control
 4.  Revisa las reglas configuradas.
 5.  Haz clic en el botón "Revisar y lanzar".
 
-    ![configuración del grupo de seguridad](/7.jpg)
+    ![configuración del grupo de seguridad](img/7.jpg)
 
 
 ## 10. Generación y Uso del Par de Claves
@@ -108,7 +108,7 @@ Antes de que se lance tu instancia, se te pedirá que configures un par de clave
 
 5.  Verás una página de confirmación indicando que tus instancias se están lanzando. Haz clic en el enlace "Ver instancias" para ir al panel de control de EC2.
 
-    ![confirmación de lanzamiento](/8.jpg)
+    ![confirmación de lanzamiento](img/8.jpg)
 
 ## 11. Obtención de la IP Pública
 
@@ -118,7 +118,7 @@ Una vez que la instancia esté en estado "En ejecución", podrás obtener su dir
 2.  En la pestaña "Detalles" de la instancia, busca el campo "IPv4 pública". Anota esta dirección IP.
 
    Este paso se me paso la captura per la ip publica ya que reinicie el servidor era la 13.49.18.76
-   ![Ip publica del servidor la cual cambio al reiniciarlo por eso uso una diferente](/9.jpg)
+   ![Ip publica del servidor la cual cambio al reiniciarlo por eso uso una diferente](img/9.jpg)
 
 ## 12. Obtención de la Contraseña de Windows
 
@@ -131,7 +131,7 @@ Para conectarte a tu servidor Windows mediante Escritorio Remoto, necesitarás l
 5.  Haz clic en el botón "Descifrar contraseña".
 6.  Se mostrará la contraseña de administrador. **Cópiala y guárdala en un lugar seguro.**
 
-    ![obtención y descifrado de la contraseña](/10.jpg)
+    ![obtención y descifrado de la contraseña](img/10.jpg)
 
 ## 13. Conexión mediante Escritorio Remoto
 
@@ -144,11 +144,11 @@ Ahora puedes conectarte a tu servidor Windows Server utilizando la aplicación E
 5.  Se te pedirá un nombre de usuario y una contraseña. El nombre de usuario predeterminado es "Administrator". Introduce la contraseña que descifraste en el paso anterior.
 6.  Haz clic en "Aceptar".
 
-    ![ conexión de Escritorio Remoto](/12.jpg)
+    ![ conexión de Escritorio Remoto](img/12.jpg)
 
 7.  ¡Felicidades! Ahora estás conectado a tu servidor Windows Server en AWS.
 
-    ![Windows Server conectado](/11.jpg)
+    ![Windows Server conectado](img/11.jpg)
 
 
 
